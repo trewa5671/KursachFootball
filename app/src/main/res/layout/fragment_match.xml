@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/bar">
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img" />
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Оренбург - Факел
+             28.10.2022 17:00"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_1" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_2" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Динамо М - Химки
+             29.10.2022 14:00"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_3" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_4" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Ахмат - Ростов
+             29.10.2022 16:30"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_5" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_6" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Локомотив М - ЦСКА
+             29.10.2022 19:00"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_7" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_8" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="59dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="11dp"
+                android:gravity="center"
+                android:text="Крылья Советов - Пари НН
+             30.10.2022 14:00"
+                android:textColor="@color/white"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_2" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Сочи - Урал
+             30.10.2022 14:00"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_9" />
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_10" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Спартак М - Торпедо
+             30.10.2022 16:30"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_11" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_12" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Краснодар - Зенит
+             30.10.2022 19:30"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_13" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="37dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_2" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Оренбург - Факел
+             28.10.2022 17:00"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="87dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_2" />
+
+            <TextView
+                android:layout_width="183dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="Оренбург - Факел
+             28.10.2022 17:00"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="83dp"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_3" />
+        </TableRow>
+
+
+</TableLayout>

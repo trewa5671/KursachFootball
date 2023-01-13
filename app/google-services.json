@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "691407513215",
+    "firebase_url": "https://basefootball-e9191-default-rtdb.firebaseio.com",
+    "project_id": "basefootball-e9191",
+    "storage_bucket": "basefootball-e9191.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:691407513215:android:168ab38fbd0dc5e0d2014a",
+        "android_client_info": {
+          "package_name": "com.example.kursachfootball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "691407513215-ejjng2i72f14dm2qa7qjqjk31r125p45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQND4ZDyR2E8M3PiUhxRIi187h__EGzQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "691407513215-ejjng2i72f14dm2qa7qjqjk31r125p45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
